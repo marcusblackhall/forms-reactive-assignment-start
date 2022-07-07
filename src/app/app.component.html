@@ -74,7 +74,8 @@
           </div>
 
           <div class="form-group">
-              <select name="projectStatus" class="form-control" 
+              <label for="projectStatus">Project status</label>
+              <select id="projectStatus" name="projectStatus" class="form-control" 
               formControlName="projectStatus"
               >
             <option *ngFor="let status of statuses" value="status">
